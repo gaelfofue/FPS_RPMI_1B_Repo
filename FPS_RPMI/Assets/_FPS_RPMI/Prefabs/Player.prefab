@@ -408,7 +408,19 @@ MonoBehaviour:
     m_ActionId: cdd03e98-2df8-4284-b5d9-448b0530b001
     m_ActionName: 'Gameplay/Shoot[/Mouse/leftButton]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2975229713685490875}
+        m_TargetAssemblyTypeName: GunSystem, Assembly-CSharp
+        m_MethodName: OnReload
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 7488b9b2-776b-4019-95cd-9ce170bf97b4
     m_ActionName: 'Gameplay/Reload[/Keyboard/r]'
   - m_PersistentCalls:
@@ -491,7 +503,7 @@ MonoBehaviour:
   shootPoint: {fileID: 0}
   impactLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
   damage: 10
   range: 100
   spread: 0
@@ -499,7 +511,8 @@ MonoBehaviour:
   reloadTime: 1.5
   allowButtonHold: 0
   ammoSize: 30
-  bulletPerTap: 1
+  bulletsPerTap: 1
+  bulletsLeft: 0
   impactEffect: {fileID: 0}
   shooting: 0
   canShoot: 0
