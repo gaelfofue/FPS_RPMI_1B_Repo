@@ -10346,6 +10346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_DeathExplotionPixelated
       objectReference: {fileID: 0}
+    - target: {fileID: 286176283196018958, guid: 91902d4722ec84b48bc4b558f43bac79, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1800580020572230912, guid: 91902d4722ec84b48bc4b558f43bac79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
